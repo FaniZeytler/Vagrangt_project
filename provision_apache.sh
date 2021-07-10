@@ -1,3 +1,4 @@
+#install apache
 apt-get update
 apt-get install -y apache2
 #set Apache listen on port 8080

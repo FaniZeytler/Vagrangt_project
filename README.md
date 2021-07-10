@@ -8,6 +8,7 @@
 * To connect to the VM with consul server - "vagrant ssh consulserver"
 * To connect to the VM with Agent server+Consul agent - "vagrant ssh apache"
 
+
 <h4>Files:</h4>
 
 <b>000-default.conf,ports.conf: </b> Files for changing the listening port of Apache.

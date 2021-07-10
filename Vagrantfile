@@ -15,8 +15,6 @@ Vagrant.configure("2") do |config|
   # boxes at https://vagrantcloud.com/search.
   serverIp = "192.168.99.100"
   config.vm.box = "bento/ubuntu-18.04"
-  #config.vm.hostname = "consul-server"
-  #config.vm.provision "shell", path: "provision.sh"
   
   #VM with Consul Server
   config.vm.define "consulserver" do |consulserver|

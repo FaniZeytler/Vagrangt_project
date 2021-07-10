@@ -20,7 +20,7 @@
 
 <b>provision_apache.sh: </b> Commands to configure Apache.
 
-<b>provision.consul.sh: </b>Commands to install Consul.
+<b>provision_consul.sh: </b>Commands to install Consul.
 
 <b>provision_consul_service.sh: </b> Commands to insert the file of consul.service to the VM.
 

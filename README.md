@@ -4,4 +4,6 @@
 
 * Consul UI will be available at "http://localhost:8500/ui"
 * Apache server page will be available at "http://localhost:8080"
-* To run Consul commands - Consul need to be installed.
+
+* To connect to the VM with consul server - "vagrant ssh consulserver"
+* To connect to the VM with Agent server+Consul agent - "vagrant ssh apache"

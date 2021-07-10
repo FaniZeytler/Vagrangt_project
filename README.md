@@ -7,7 +7,7 @@
 
 * To connect to the VM with consul server - "vagrant ssh consulserver"
 * To connect to the VM with Agent server+Consul agent - "vagrant ssh apache"
-* To run Consul commands not in one of the VM's - Consul need to be installed and the consusl.exe file need to be aat the same directory of the files.
+* To run Consul commands not in one of the VM's - Consul need to be installed and the consusl.exe file need to be at the same directory of the files.
 
 
 <h4>Files:</h4>

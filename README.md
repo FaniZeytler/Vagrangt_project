@@ -16,7 +16,7 @@
 
 <b>consul.service: </b> Service of Consul
 
-<b>index.html </b> Page that Apache displays.
+<b>index.html </b> Page that Apache displays(path: /var/www/html/index.html)
 
 <b>provision_apache.sh: </b> Commands to configure Apache.
 

@@ -18,7 +18,7 @@ Vagrant.configure("2") do |config|
   #config.vm.hostname = "consul-server"
   #config.vm.provision "shell", path: "provision.sh"
   
-  
+  #VM with Consul Server
   config.vm.define "consulserver" do |consulserver|
 	consulserver.vm.hostname = "consulserver"
 	consulserver.vm.network "private_network", ip: serverIp
@@ -46,6 +46,7 @@ Vagrant.configure("2") do |config|
 #...
 	consulserver.vm.provision "shell", inline: "service consul start"
   end
+ #VM with Apache server + Consul agent
    config.vm.define "apache" do |apache|
 		apache.vm.hostname = "apache"
 		apache.vm.network "private_network", ip: "192.168.99.101"
